@@ -15,3 +15,4 @@ func (s *server) Check(ctx context.Context, req *proto.HealthCheckRequest) (*pro
 func (s *server) Watch(req *proto.HealthCheckRequest, stream proto.Health_WatchServer) error {
 	return nil
 }
+/
