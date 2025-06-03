@@ -4,7 +4,7 @@ import (
 	"github.com/ilyakaznacheev/cleanenv"
 	"github.com/pkg/errors"
 )
-
+//c
 type Config struct {
 	Env      string `env:"ENV" `
 	Logger   string `env:"LOGGER_LEVEL"`
